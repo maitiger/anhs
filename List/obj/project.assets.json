@@ -29670,11 +29670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UWP\\List\\List\\List.csproj",
+      "projectUniqueName": "D:\\UWP\\List\\anhs\\List\\List.csproj",
       "projectName": "List",
-      "projectPath": "D:\\UWP\\List\\List\\List.csproj",
+      "projectPath": "D:\\UWP\\List\\anhs\\List\\List.csproj",
       "packagesPath": "C:\\Users\\allth\\.nuget\\packages\\",
-      "outputPath": "D:\\UWP\\List\\List\\obj\\",
+      "outputPath": "D:\\UWP\\List\\anhs\\List\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

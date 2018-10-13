@@ -1,0 +1,7 @@
+D:\UWP\List\anhs\List\obj\ARM\Debug\App.g.i.cs
+D:\UWP\List\anhs\List\obj\ARM\Debug\App.g.cs
+D:\UWP\List\anhs\List\obj\ARM\Debug\App.xaml
+D:\UWP\List\anhs\List\obj\ARM\Debug\MainPage.xaml
+D:\UWP\List\anhs\List\obj\ARM\Debug\App.xbf
+D:\UWP\List\anhs\List\obj\ARM\Debug\MainPage.xbf
+D:\UWP\List\anhs\List\obj\ARM\Debug\XamlSaveStateFile.xml

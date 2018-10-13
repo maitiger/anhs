@@ -58,19 +58,39 @@ namespace List
         {
             Song song = new Song()
             {
-                songname = this.Name.Text,
+                songname = this.NameSong.Text,
                 songthumnail = this.Thumnail.Text,
                 singer = this.Singer.Text,
                 songt = this.Songt.Text
 
             };
             this.SongAnime1.Add(song);
-            this.Name.Text = string.Empty;
+            this.NameSong.Text = string.Empty;
             this.Thumnail.Text = string.Empty;
             this.Singer.Text = string.Empty;
             this.Songt.Text = string.Empty;
             MusicModel.AddData(song);
 
+        }
+
+        private void AddData(object sender, RoutedEventArgs e)
+        {
+            Song song = new Song()
+            {
+                songname = this.NameSong1.Text,
+                songthumnail = this.Thumnail1.Text,
+                singer = this.Singer1.Text,
+                songt = this.Songt1.Text
+
+            };
+            this.SongAnime1.Add(song);
+            this.NameSong1.Text = string.Empty;
+            this.Thumnail1.Text = string.Empty;
+            this.Singer1.Text = string.Empty;
+            this.Songt1.Text = string.Empty;
+            MusicModel.AddData(song);
+
+            Output.ItemsSource = MusicModel.GetData(song);
         }
     }
 }

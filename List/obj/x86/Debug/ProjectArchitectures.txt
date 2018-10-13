@@ -1,1 +1,1 @@
-D:\UWP\List\List\List.csproj;x86
+D:\UWP\List\anhs\List\List.csproj;x86

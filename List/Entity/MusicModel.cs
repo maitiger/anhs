@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace List.Entity
 {
     class MusicModel
@@ -31,6 +30,29 @@ namespace List.Entity
 
             }
 
+        }
+        public static List<String> GetData(Song song)
+        {
+            List<String> entries = new List<string>();
+
+            using (SqliteConnection db =
+                new SqliteConnection(DataAccess.SQL_connection_string))
+            {
+                db.Open();
+
+                SqliteCommand selectCommand = new SqliteCommand
+                    ("SELECT * from SongAnime", db);
+
+                SqliteDataReader query = selectCommand.ExecuteReader();
+
+                while (query.Read())
+                {
+                    entries.Add(query.GetString(0));
+                }
+              
+            }
+
+            return entries;
         }
     }
 }

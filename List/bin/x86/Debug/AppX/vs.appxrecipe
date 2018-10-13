@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b9650099-99fd-433d-aece-bd4e58dd5e62</PackageIdentityName>
     <PackageIdentityPublisher>CN=allth</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\UWP\List\List\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\UWP\List\anhs\List\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\UWP\List\List\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\UWP\List\anhs\List\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>17A0E7CFEACC947BACAA9F3E00D6FFAF6431E8321CDF22EB1F69FEC454739ABC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b9650099-99fd-433d-aece-bd4e58dd5e62_1.0.0.0_x86__d7xg9580q1avj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b9650099-99fd-433d-aece-bd4e58dd5e62_d7xg9580q1avj!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\UWP\List\List\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\UWP\List\anhs\List\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-13T14:08:28.861</Modified>
+      <Modified>2018-10-13T18:14:54.864</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\UWP\List\List\bin\x86\Debug\List.exe">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\List.exe">
       <PackagePath>entrypoint\List.exe</PackagePath>
-      <Modified>2018-10-13T14:08:28.534</Modified>
+      <Modified>2018-10-13T18:14:54.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -511,68 +511,68 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T16:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-10-13T13:11:32.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-09-26T00:41:47.915</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\bin\x86\Debug\List.xr.xml">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\List.xr.xml">
       <PackagePath>List.xr.xml</PackagePath>
-      <Modified>2018-10-13T14:08:28.354</Modified>
+      <Modified>2018-10-13T18:14:54.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-13T14:08:28.370</Modified>
+      <Modified>2018-10-13T18:14:54.341</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-13T14:08:28.371</Modified>
+      <Modified>2018-10-13T18:14:54.342</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T15:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-13T13:34:56.057</Modified>
+      <Modified>2018-10-13T17:01:16.675</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\List\List\bin\x86\Debug\Core\List.exe">
+    <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\Core\List.exe">
       <PackagePath>List.exe</PackagePath>
-      <Modified>2018-10-13T14:08:28.858</Modified>
+      <Modified>2018-10-13T18:14:54.862</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

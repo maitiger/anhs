@@ -49,15 +49,32 @@
 
         <PivotItem Header=" ADD song">
             <StackPanel>
-                <TextBox x:Name="Name" Header="Song Name"/>
+                <TextBox x:Name="NameSong" Header="Song Name"/>
                 <TextBox x:Name="Thumnail" Header="Thumnail "/>
                 <TextBox x:Name="Singer" Header="Singer Name"/>
                 <TextBox x:Name="Songt" Header="Songt Name"/>
                 <Button Content="Add this song" Click="ADD" />
             </StackPanel>
-
         </PivotItem>
 
+        <PivotItem Header=" My Song">
+            <StackPanel>
+               <TextBox x:Name="NameSong1" Header="Song Name"/>
+                <TextBox x:Name="Thumnail1" Header="Thumnail "/>
+                <TextBox x:Name="Singer1" Header="Singer Name"/>
+                <TextBox x:Name="Songt1" Header="Songt Name"/>
+                <Button Click="AddData" Content="Add And Show list"/>
+                <ListView Name="Output">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="entity:Song">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </PivotItem>
     </Pivot>
 
 
