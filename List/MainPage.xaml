@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="List.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:List"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:entity="using:List.Entity"
+    mc:Ignorable="d"
+    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+    <Pivot>
+        <Pivot.Title>
+            <TextBlock Text="Anime Music "/>
+        </Pivot.Title>
+        <Pivot.RightHeader>
+            <CommandBar>
+                <AppBarButton>
+                    <SymbolIcon Symbol="Add"/>
+                </AppBarButton>
+                <AppBarButton>
+                    <SymbolIcon Symbol="Play"/>
+                </AppBarButton>
+                <AppBarButton>
+                    <SymbolIcon Symbol="Pause"/>
+                </AppBarButton>
+
+
+            </CommandBar>
+        </Pivot.RightHeader>
+        <PivotItem Header="Anime Music">
+
+            <ListView ItemsSource="{x:Bind songAnime}">
+                <ListView.ItemTemplate >
+                    <DataTemplate x:DataType="entity:Song">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{x:Bind songthumnail }" Width="150"/>
+                            <TextBlock Text="{x:Bind songname}"/>
+                            
+                            <TextBlock Text="{x:Bind singer}"/>
+                            <TextBlock Text="{x:Bind songt}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </PivotItem>
+
+        <PivotItem Header=" ADD song">
+            <StackPanel>
+                <TextBox x:Name="Name" Header="Song Name"/>
+                <TextBox x:Name="Thumnail" Header="Thumnail "/>
+                <TextBox x:Name="Singer" Header="Singer Name"/>
+                <TextBox x:Name="Songt" Header="Songt Name"/>
+                <Button Content="Add this song" Click="ADD" />
+            </StackPanel>
+
+        </PivotItem>
+
+    </Pivot>
+
+
+</Page>

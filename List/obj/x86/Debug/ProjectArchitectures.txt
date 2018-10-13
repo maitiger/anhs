@@ -1,0 +1,1 @@
+D:\UWP\List\List\List.csproj;x86
