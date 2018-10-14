@@ -31,7 +31,8 @@ namespace List.Entity
             }
 
         }
-        public static List<String> GetData(Song song)
+       
+        public static List<String> GetData()
         {
             List<String> entries = new List<string>();
 
@@ -48,6 +49,10 @@ namespace List.Entity
                 while (query.Read())
                 {
                     entries.Add(query.GetString(0));
+                    entries.Add(query.GetString(1));
+                    entries.Add(query.GetString(2));
+                    entries.Add(query.GetString(3));
+                    entries.Add(query.GetString(4));
                 }
               
             }

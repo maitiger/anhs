@@ -54,6 +54,7 @@
                 <TextBox x:Name="Singer" Header="Singer Name"/>
                 <TextBox x:Name="Songt" Header="Songt Name"/>
                 <Button Content="Add this song" Click="ADD" />
+                
             </StackPanel>
         </PivotItem>
 
@@ -68,7 +69,9 @@
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="entity:Song">
                             <StackPanel Orientation="Horizontal">
+                                <Image Source="{Binding }" Width="150"/>
                                 <TextBlock Text="{Binding}" />
+                                
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>

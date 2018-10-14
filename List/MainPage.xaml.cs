@@ -90,7 +90,8 @@ namespace List
             this.Songt1.Text = string.Empty;
             MusicModel.AddData(song);
 
-            Output.ItemsSource = MusicModel.GetData(song);
+            Output.ItemsSource = MusicModel.GetData();
+
         }
     }
 }

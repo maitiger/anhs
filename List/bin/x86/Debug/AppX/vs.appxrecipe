@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\UWP\List\anhs\List\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-13T18:14:54.864</Modified>
+      <Modified>2018-10-14T03:26:56.530</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\List.exe">
       <PackagePath>entrypoint\List.exe</PackagePath>
-      <Modified>2018-10-13T18:14:54.533</Modified>
+      <Modified>2018-10-14T03:26:56.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -551,15 +551,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\List.xr.xml">
       <PackagePath>List.xr.xml</PackagePath>
-      <Modified>2018-10-13T18:14:54.322</Modified>
+      <Modified>2018-10-14T03:22:06.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-13T18:14:54.341</Modified>
+      <Modified>2018-10-14T03:26:55.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-13T18:14:54.342</Modified>
+      <Modified>2018-10-14T03:26:55.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -568,11 +568,11 @@
     <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-13T17:01:16.675</Modified>
+      <Modified>2018-10-14T03:14:00.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\List\anhs\List\bin\x86\Debug\Core\List.exe">
       <PackagePath>List.exe</PackagePath>
-      <Modified>2018-10-13T18:14:54.862</Modified>
+      <Modified>2018-10-14T03:26:56.528</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
